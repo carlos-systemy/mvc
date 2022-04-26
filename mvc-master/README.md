@@ -18,14 +18,6 @@ Framework was developed during the final year of university. It was used for som
 - ApiGen / phpDocumentor
 - PHPUnit
 
-## Login operation
-
-If you imported database data from `sys/db/dump.sql`, you could authenticate with following credentials:
-
-- john.doe@example.com / admin
-- jane.doe@example.com / admin
-
-If you're manually adding user to `users` table, don't forget to append salt from `sys/Config.php` before hashing with SHA-512 algorithm.
 
 ![Login form](assets/img/login.png)
 
